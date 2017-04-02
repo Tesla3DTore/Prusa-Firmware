@@ -322,7 +322,7 @@ THERMISTORS SETTINGS
 #define PRINT_FINISHED 0xFF
 
 #define Z_BABYSTEP_MIN -3999
-#define Z_BABYSTEP_MAX 0
+#define Z_BABYSTEP_MAX 3999 //more easy to adjust nozzle in case of bed is deformate UP and not DOWN
 
 #define PING_TIME 60 //time in s
 #define PING_TIME_LONG 600 //10 min; used when length of commands buffer > 0 to avoid false triggering when dealing with long gcodes
